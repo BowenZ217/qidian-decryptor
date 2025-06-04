@@ -1,0 +1,23 @@
+{
+  "name": "qidian-decryptor",
+  "version": "1.0.0",
+  "bin": "decrypt.js",
+  "main": "decrypt.js",
+  "scripts": {
+    "build": "node prebuild.js && node node_modules/pkg/lib-es5/bin.js ."
+  },
+  "pkg": {
+    "assets": [
+      "4819793b.qeooxh.js"
+    ],
+    "targets": [
+      "node18-win-x64",
+      "node18-linux-x64",
+      "node18-macos-x64"
+    ],
+    "outputPath": "dist"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
+}
