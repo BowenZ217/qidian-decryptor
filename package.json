@@ -1,6 +1,6 @@
 {
   "name": "qidian-decryptor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": "decrypt.js",
   "main": "decrypt.js",
   "scripts": {
